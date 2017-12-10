@@ -5,14 +5,14 @@ Getting Started
 -
 These instructions will explain how to compile and deploy a custom ERC-20 compliant token to the Ethereum blockchain.
 
-###Before we start:
+### Before we start:
 
 1.  Download and Install NodeJS
 2.  Install the truffle framework globally by running "npm install truffle -g"
 3.  Install geth for your operating system from https://geth.ethereum.org/downloads/
         -  This was done using geth 1.7.3.
 
-###Deploying to Ropsten Testnet:
+### Deploying to Ropsten Testnet:
 1.  Navigate to the root folder of the application where the truffle.js is located.
 2.  Run "truffle compile", this will output the contracts to the build directory we will deploy from.
 3.  In a new command line window, run the command "geth --testnet --fast --rpc --rpcapi eth,net,web3,personal".  This will create a geth instance of the testnet and start mining the blockchain.
